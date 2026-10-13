@@ -2,10 +2,10 @@
   "cookies": [
     {
       "name": "SID",
-      "value": "2f60b8e8c1b36119296879a641bdd183",
+      "value": "3d82af4d0e634e27cab0184d5b46b1b4",
       "domain": ".devcontrol.ru",
       "path": "/",
-      "expires": 1791966049.530452,
+      "expires": 1791975983.186764,
       "httpOnly": true,
       "secure": true,
       "sameSite": "Lax"
@@ -15,7 +15,7 @@
       "value": "prod1",
       "domain": ".devcontrol.ru",
       "path": "/",
-      "expires": 1823415649.594304,
+      "expires": 1823425583.267796,
       "httpOnly": true,
       "secure": true,
       "sameSite": "Lax"
@@ -25,7 +25,7 @@
       "value": "1786492800",
       "domain": "devcontrol.ru",
       "path": "/",
-      "expires": 1823415649.747112,
+      "expires": 1823425583.451533,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -35,7 +35,7 @@
       "value": "0",
       "domain": "devcontrol.ru",
       "path": "/",
-      "expires": 1823415649.747166,
+      "expires": 1823425583.451575,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -49,6 +49,60 @@
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
+    },
+    {
+      "name": "_yasc",
+      "value": "79DTn0UhTNpG3OZRGkyI8GOVyFbBWS9QmbddSfDRDOuIfANglD4QmmfBL6EdhTcBouBHgt4=",
+      "domain": ".yandex.ru",
+      "path": "/",
+      "expires": 1826449583.653909,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "pi",
+      "value": "BDIQTg2EK5Bnuh7mPeFwZdPd8kZ0wjRO46EpuGbgBuOrDiRHl4JNVvLYyIGVSc8U0xWy2Pd80dYE7uPDZctj8dfxQ+g=",
+      "domain": ".yandex.ru",
+      "path": "/",
+      "expires": 1826449583.653971,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://devcontrol.ru",
+      "_crHasCrossSiteAncestor": true
+    },
+    {
+      "name": "i",
+      "value": "IXJIEJh2soegUXzsIVEtTgN3oTMPjpzK0wvQMnk7pa2ss+CjLyckY8nktj9ZKWBiJEF77iAkPvVCkG8599lps0eGNpI=",
+      "domain": ".yandex.ru",
+      "path": "/",
+      "expires": 1826449583.654002,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "yandexuid",
+      "value": "6133832481791889583",
+      "domain": ".yandex.ru",
+      "path": "/",
+      "expires": 1826449583.654022,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "yashr",
+      "value": "9804909271791889583",
+      "domain": ".yandex.ru",
+      "path": "/",
+      "expires": 1823425583.654042,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://devcontrol.ru",
+      "_crHasCrossSiteAncestor": true
     }
   ],
   "origins": [
