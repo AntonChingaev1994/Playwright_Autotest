@@ -34,7 +34,7 @@ export default defineConfig({
     screenshot: 'only-on-failure',
     trace: 'on-first-retry',
     // viewport: { width: 1920, height: 1080 },
-    baseURL: 'https://devcontrol.ru/',
+    baseURL: 'https://t.devcontrol.ru/',
   },
   timeout: 60000, // для режима trace viewer 60 000(по умолчанию 30000)
   expect: {
