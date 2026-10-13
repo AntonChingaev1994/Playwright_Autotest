@@ -8,7 +8,6 @@ test.beforeEach(async ({ page, metod, locatorPir, homePage }) => {
 
   // Заходим в тестовый объект
   await metod.GoToObject('142');
-  //123123
   await expect(homePage.nameObject).toBeVisible();
 
 
