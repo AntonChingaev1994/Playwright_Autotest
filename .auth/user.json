@@ -1,0 +1,65 @@
+{
+  "cookies": [
+    {
+      "name": "SID",
+      "value": "2f60b8e8c1b36119296879a641bdd183",
+      "domain": ".devcontrol.ru",
+      "path": "/",
+      "expires": 1791966049.530452,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "APP_HOST",
+      "value": "prod1",
+      "domain": ".devcontrol.ru",
+      "path": "/",
+      "expires": 1823415649.594304,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "period_start",
+      "value": "1786492800",
+      "domain": "devcontrol.ru",
+      "path": "/",
+      "expires": 1823415649.747112,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "period_end",
+      "value": "0",
+      "domain": "devcontrol.ru",
+      "path": "/",
+      "expires": 1823415649.747166,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "DB2_TYPE",
+      "value": "main",
+      "domain": "devcontrol.ru",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://devcontrol.ru",
+      "localStorage": [
+        {
+          "name": "NOTIFICATION_CENTER_DISABLE_POPUP",
+          "value": "1"
+        }
+      ]
+    }
+  ]
+}
