@@ -5,7 +5,7 @@ import { test, expect } from '../../fixtures';
 
     await expect(homePage.modalContent).toBeVisible();
     await homePage.buttinSuccess.click();
-    await expect(homePage.modalContent).not.toBeVisible();
+    await expect(homePage.modalContent).toBeHidden();
 
     await metod.GoToObject('142');
     await expect(homePage.nameObject).toBeVisible();
@@ -29,7 +29,7 @@ test('Проверка автозаполнения полей в АОР', async
 
     await expect(homePage.modalContent).toBeVisible();
     await homePage.buttinSuccess.click();
-    await expect(homePage.modalContent).not.toBeVisible();
+    await expect(homePage.modalContent).toBeHidden();
 
     await metod.GoToObject('142');
     await expect(homePage.nameObject).toBeVisible();

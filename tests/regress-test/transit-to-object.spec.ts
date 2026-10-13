@@ -6,7 +6,7 @@ test('Авторизация и проверка отображения мода
 
     await expect(homePage.modalContent).toBeVisible();
     await homePage.buttinSuccess.click();
-    await expect(homePage.modalContent).not.toBeVisible();
+    await expect(homePage.modalContent).toBeHidden();
 });
 
 test('Авторизация и переход в объект', async ({ page, homePage, metod }) => {
