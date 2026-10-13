@@ -4,12 +4,11 @@ node_modules/
 
 # Playwright
 node_modules/
-/test-results/
-/playwright-report/
-/blob-report/
+test-results/
+playwright-report/
+blob-report/
 .cache/
 .auth/
-user.json
 
 # Логи и переменные окружения
 *.log
