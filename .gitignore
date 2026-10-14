@@ -9,6 +9,7 @@ playwright-report/
 blob-report/
 .cache/
 .auth/
+.env
 
 # Логи и переменные окружения
 *.log
