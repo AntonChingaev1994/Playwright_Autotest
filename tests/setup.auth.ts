@@ -4,7 +4,7 @@ const authFile = '.auth/user.json';
 
 setup('authenticate', async ({ page, loginPage }) => {
   // Меняем базу на ПШ
-  await loginPage.SwitchDB(loginPage.db_name)
+  await loginPage.SwitchDB(process.env.DB_NAME!)
 
   // Авторизуемся
   await loginPage.Authorization(process.env.USER_LOGIN!, process.env.USER_PASSWORD!);
