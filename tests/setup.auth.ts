@@ -7,7 +7,7 @@ setup('authenticate', async ({ page, loginPage }) => {
   await loginPage.SwitchDB(loginPage.db_name)
 
   // Авторизуемся
-  await loginPage.Authorization('chingaev', 'aschingaev1994');
+  await loginPage.Authorization(process.env.USER_LOGIN!, process.env.USER_PASSWORD!);
   
   // Ждем когда появидться лого на главной странице(необходимо что бы записать правильные куки)
   await loginPage.logo.waitFor({ state: 'visible', timeout: 10000 });
