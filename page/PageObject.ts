@@ -1,7 +1,6 @@
 import { Page, Locator, expect } from '@playwright/test';
 
 export class LocatorLoginPage {
-  readonly db_name = 'buh2_eks_proshkola';
 
   constructor(private readonly page: Page) {}
 
